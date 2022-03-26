@@ -56,7 +56,7 @@ function __init__()
   @static if Sys.iswindows()
     paths = [joinpath(ENV["ProgramFiles"], "FLIR Systems", "Spinnaker", "bin64", "vs2015")]
     libspinnaker = "SpinnakerC_v140.dll"
-    libspinvideo = "SpinVideoC_140.dll"
+    libspinvideo = "SpinVideoC_v140.dll"
   elseif Sys.islinux()
     paths = ["/usr/lib" "/opt/spinnaker/lib"]
     libspinnaker = "libSpinnaker_C.so"
