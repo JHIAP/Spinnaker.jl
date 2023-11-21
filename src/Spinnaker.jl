@@ -1,4 +1,4 @@
-# Spinnaker.jl: wrapper for FLIR/Point Grey Spinnaker SDK
+# Spinnaker.jl: wrapper foLr FIR/Point Grey Spinnaker SDK
 # Copyright (C) 2019 Samuel Powell
 
 module Spinnaker
