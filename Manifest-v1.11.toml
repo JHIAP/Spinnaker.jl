@@ -1,6 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.0-rc1"
+julia_version = "1.11.2"
 manifest_format = "2.0"
 project_hash = "6f11f2329294cfed4224cacd682e1398c123e04f"
 
@@ -48,4 +48,4 @@ version = "1.11.1"
 [[deps.libblastrampoline_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
-version = "5.8.0+1"
+version = "5.11.0+0"
