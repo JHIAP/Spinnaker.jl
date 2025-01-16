@@ -54,7 +54,7 @@ include("Nodes.jl")
 # Create a System object at runtime
 function __init__()
   @static if Sys.iswindows()
-    paths = [joinpath(ENV["ProgramFiles"], "FLIR Systems", "Spinnaker", "bin64", "vs2015")]
+    paths = [joinpath(ENV["ProgramFiles"], "Teledyne", "Spinnaker", "bin64", "vs2015")]
     libspinnaker = "SpinnakerC_v140.dll"
     libspinvideo = "SpinVideoC_v140.dll"
   elseif Sys.islinux()
